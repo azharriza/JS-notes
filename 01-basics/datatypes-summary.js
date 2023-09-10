@@ -27,3 +27,29 @@ const obj = {
 const myFunction = function () {
   console.log("Hello World");
 };
+
+// -------------------Memory----------------------
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let website = "azhar.com";
+
+let websiteOne = website;
+websiteOne = "azhar.org";
+
+// output is different because here stack memory is used
+console.log(website);
+console.log(websiteOne);
+
+let userOne = {
+  email: "user@google.com",
+  upi: "user@okaxis",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "azhar@google.com";
+
+// output is same because here heap memory is used
+console.log(userOne.email);
+console.log(userTwo.email);
