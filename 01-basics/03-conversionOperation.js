@@ -15,5 +15,11 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let digit = 33;
 let stringDigit = String(digit);
-console.log(stringDigit);
-console.log(typeof stringDigit);
+// console.log(stringDigit);
+// console.log(typeof stringDigit);
+
+// ------------------------Operations-----------------------------
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
