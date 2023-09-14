@@ -1,5 +1,5 @@
 // Two ways to declare objects
-// 1. constructor --> Object.create --> singletone
+// 1. constructor --> Object.create --> singleton
 // 2. literals --> const jsUser = {}
 
 // object literals
