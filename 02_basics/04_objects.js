@@ -43,10 +43,31 @@ const users = [
 
 users[1].email;
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); // return array of all keys of objects
-console.log(Object.values(tinderUser)); // return array of all values of objects
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser)); // return array of all keys of objects
+// console.log(Object.values(tinderUser)); // return array of all values of objects
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty("isLogged"));
+// console.log(tinderUser.hasOwnProperty("isLogged"));
+
+// Destructure of Object
+const course = {
+    name: "Javascript",
+    price: 999,
+    courseInstructor: "azhar",
+};
+
+// course.courseInstructor // common way to access object data
+
+const { courseInstructor } = course;
+
+// console.log(courseInstructor);
+
+// {
+//     "courseName": "Javascript",
+//     "price": "free",
+//     "instructor": "azhar"
+// }
+
+[{}, {}, {}];
