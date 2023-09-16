@@ -22,4 +22,14 @@ function addTwoNumbers(num1, num2) {
 }
 
 const result = addTwoNumbers(3, 6);
-console.log(result);
+// console.log(result);
+
+function loginUserMessage(username) {
+    if (!username) {
+        return "Enter valid value";
+    } else {
+        return `Hi ${username} 🙂, you just login`;
+    }
+}
+
+// console.log(loginUserMessage(""));
