@@ -7,4 +7,3 @@
 ((name) => {
     console.log(`DB CONNECTED AGAIN ${name}`);
 })("azhar");
-ggod
