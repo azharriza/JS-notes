@@ -1,0 +1,36 @@
+.button{
+    display: flexbox;
+   
+}
+
+
+
+#yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+#cyan{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+#white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+   
