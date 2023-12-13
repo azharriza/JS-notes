@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+}
+
+#results {
+    margin-top: 20px;
+    color: brown;
+    font-size: large;
+    font-weight: 700;
+}
+
+#details--results {
+    margin-top: 20px;
+    color: brown;
+    font-size: large;
+    font-weight: 700;
+}
