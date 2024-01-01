@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Guess The Number</title>
 </head>
@@ -10,7 +13,17 @@
     <div id="wrapper">
         <h1>Number guessing game</h1>
         <p>Try and guess a random number between 1 and 100</p>
-        
+        <form class="form">
+            <label for="guessField" class="guess">Guess a number</label><br>
+            <input type="text" id="guessField" class="guessField"><br>
+            <input type="submit" id="submit" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="resultParas">
+            <p>Previous Guesses: <span class="guessess"></span></p>
+            <p>Guesses Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHigh"></p>
+        </div>
     </div>
     
     <script src="script.js"></script>
